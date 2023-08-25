@@ -1,0 +1,183 @@
+.container-first {
+  background-image: linear-gradient(to right, #141e30, #243b55);
+  width: 100%;
+}
+
+.container-card {
+  margin-bottom: 200px;
+}
+
+.container-card-hed {
+  margin-top: 100px;
+}
+
+.container-first-div{
+  margin-right:0%;
+}
+
+.h1-sec {
+  width: 400px;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-size: 5.2rem;
+  display: block;
+}
+
+.card-img {
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.about {
+  color: #cccccc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6em;
+}
+
+.h2my {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3.8em;
+  color: #ffffff;
+}
+
+.card-body {
+  height: 120px;
+}
+
+.contact {
+  list-style-type: none;
+  position: absolute;
+
+  text-align: center;
+}
+.card-text {
+  color: #cccccc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+}
+.contact-p {
+  color: #cccccc;
+  font-family: "Open Sans", sans-serif;
+}
+
+.pr-img {
+  height: 250px;
+  border-radius: 20px;
+  width: 400px;
+  margin-left: 0;
+  margin-left: 0;
+}
+
+.pr-hed {
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2.5rem;
+}
+
+.pr-p {
+  color: #cccccc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3em;
+}
+
+.pr-cont {
+  padding-right: 0px;
+}
+
+.pr-div {
+  padding-left: 0%;
+}
+.pr-main-div {
+  margin-bottom: 80px;
+}
+
+.pr-main-div-reverse {
+  margin-left: 200px;
+}
+
+.pr-main-div-forward {
+  margin-right: 200px;
+}
+
+.final-set {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+@media (max-width: 990px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 0px;
+  }
+
+  .pr-div {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+
+  .pr-cont {
+    padding-right: 0;
+    padding-left: 140px;
+  }
+
+  .pr-main-div {
+    margin: auto;
+  }
+  .pr-p {
+    padding-right: 140px;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 3.7rem;
+    text-align: center;
+  }
+  .about {
+    font-size: 1.5em;
+  }
+
+  .pr-img {
+    height: 180px;
+  }
+
+  .pr-div {
+    padding: 0px;
+  }
+
+  .pr-hed {
+    font-size: 1.8rem;
+  }
+
+  .h2my {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2.8em;
+    color: #ffffff;
+  }
+  .pr-p {
+    font-size: 1.3em;
+  }
+
+  .finalh2 {
+    font-size: 2em;
+  }
+
+  .contact-p {
+    color: #cccccc;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+  }
+
+  .pr-cont {
+    padding-right: 0;
+    padding-left: 40px;
+  }
+
+  .pr-p {
+    padding-right: 50px;
+  }
+}
